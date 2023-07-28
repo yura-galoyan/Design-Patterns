@@ -7,9 +7,8 @@ std::unique_ptr<Window> createWin(const AbstractFactory& factory){
 
     std::unique_ptr<Window> win = std::make_unique<Window>();
     win->addButton(factory.createButton());
-    win->addButton(factory.createButton());
-    win->addButton(factory.createButton());
-
+    win->addCheckBox(factory.createCheckBox());
+    
     return win;
 }
 
