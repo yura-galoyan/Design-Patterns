@@ -5,14 +5,11 @@
 
 
 int main(){
-    GLFWCreator factory1;
-    SFMLCreator factory2;
+    std::unique_ptr<AbstractCreator> creator = std::make_unique<SFMLCreator>();
 
-    Window window;
+    std::unique_ptr<Window> window = creator->createWindow();
 
-    window.addButton(factory2.create());
-
-    window.run();
+    window->run();
 
 
 }

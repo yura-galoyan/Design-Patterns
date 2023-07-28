@@ -1,8 +1,9 @@
+#pragma once
 #include "AbstractButton.hpp"
 
 #include <vector>
 #include <utility>
-
+#include <memory>
 class Window
 {
 public:
