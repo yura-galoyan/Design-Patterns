@@ -1,0 +1,2 @@
+
+/// SINGELTON IS BAD
