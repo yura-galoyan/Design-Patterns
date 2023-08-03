@@ -1,7 +1,13 @@
+/// this example is from wikipedia
+/// i didn't like this pattern, cause it has a specific intent, and also it is kinda difficult
+
 #include <iostream>
 #include <cstring>
 #include <memory>
 #include <map>
+
+
+
 
 class Context;
 
